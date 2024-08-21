@@ -1,0 +1,52 @@
+.homeContainer {
+  text-align: center;
+  margin-top: 100px;
+  padding: 20px;
+  background-color: #f0f4f8;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.welcomeMessage {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 40px;
+}
+
+.buttonContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.btn {
+  border: none;
+  border-radius: 5px;
+  padding: 15px 30px;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #fff;
+  transition: background-color 0.3s ease;
+}
+
+.btnSuccess {
+  background-color: #28a745;
+}
+
+.btnSuccess:hover {
+  background-color: #218838;
+}
+
+.btnInfo {
+  background-color: #17a2b8;
+}
+
+.btnInfo:hover {
+  background-color: #138496;
+}
+
+.fa-arrow-right {
+  margin-left: 10px;
+}

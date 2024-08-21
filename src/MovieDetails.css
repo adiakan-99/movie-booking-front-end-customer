@@ -1,0 +1,48 @@
+/* MovieDetails.css */
+
+.card {
+    height: auto;
+}
+
+.card-title {
+    font-size: 2rem;
+    font-weight: 800;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 15px;
+}
+
+.card-text.description {
+    font-size: 1.1rem;
+    font-weight: 400;
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+
+.card-text.info {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.card img {
+    height: 100%;
+    object-fit: cover;
+}
+
+.list-group {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+.list-group-item {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.btn-danger {
+    margin-top: 20px;
+    font-size: 1rem;
+    padding: 10px 20px;
+}

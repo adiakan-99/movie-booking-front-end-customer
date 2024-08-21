@@ -1,0 +1,98 @@
+/* Signin.css */
+.form-container {
+  max-width: 450px;
+  margin: 60px auto;
+  padding: 30px;
+  background: linear-gradient(135deg, #f3f4f6, #ffffff);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  /* transition: transform 0.3s ease-in-out; */
+  text-align: center;
+}
+
+/* .form-container:hover {
+  transform: translateY(-5px);
+} */
+
+.form-title {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 25px;
+  color: #333;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.form-group label {
+  color: #555;
+}
+
+.form-control {
+  padding: 10px;
+  font-size: 14px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  margin-top: 5px;
+  width: 100%;
+}
+
+.form-control:focus {
+  border-color: #007BFF;
+  box-shadow: 0 0 8px rgba(0, 123, 255, 0.25);
+}
+
+.custom-button {
+  background-color: #007BFF;
+  border: 1px solid #007BFF;
+  color: white;
+  padding: 12px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 20px auto;
+  cursor: pointer;
+  border-radius: 25px;
+  transition: all 0.3s ease-in-out;
+}
+
+.custom-button:hover {
+  background-color: white;
+  color: #007BFF;
+  border: 1px solid #007BFF;
+}
+
+.text-center {
+  color: #555;
+  font-size: 14px;
+}
+
+.existing-user-button {
+  background-color: transparent;
+  border: 2px solid #007BFF;
+  color: #007BFF;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px auto;
+  cursor: pointer;
+  border-radius: 25px;
+  transition: all 0.3s ease-in-out;
+}
+
+.existing-user-button:hover {
+  background-color: #007BFF;
+  color: white;
+}
+
+.prompt-text {
+  font-size: 25px;
+  color: #555;
+  margin-bottom: 20px;
+  text-align: center;
+  line-height: 1.5;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
